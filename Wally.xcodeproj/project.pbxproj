@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF26C4C31E6536C2000D635F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26C4C21E6536C2000D635F /* AppDelegate.swift */; };
+		CF26C4C51E6536C2000D635F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF26C4C41E6536C2000D635F /* Assets.xcassets */; };
+		CF26C4C81E6536C2000D635F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF26C4C61E6536C2000D635F /* MainMenu.xib */; };
+		CF26C4D31E6536C2000D635F /* WallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26C4D21E6536C2000D635F /* WallyTests.swift */; };
+		CF26C4DE1E6536C3000D635F /* WallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF26C4DD1E6536C3000D635F /* WallyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF26C4CF1E6536C2000D635F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF26C4B71E6536C2000D635F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF26C4BE1E6536C2000D635F;
+			remoteInfo = Wally;
+		};
+		CF26C4DA1E6536C3000D635F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF26C4B71E6536C2000D635F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF26C4BE1E6536C2000D635F;
+			remoteInfo = Wally;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF26C4BF1E6536C2000D635F /* Wally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF26C4C21E6536C2000D635F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF26C4C41E6536C2000D635F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF26C4C71E6536C2000D635F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CF26C4C91E6536C2000D635F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF26C4CE1E6536C2000D635F /* WallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF26C4D21E6536C2000D635F /* WallyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallyTests.swift; sourceTree = "<group>"; };
+		CF26C4D41E6536C2000D635F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF26C4D91E6536C3000D635F /* WallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF26C4DD1E6536C3000D635F /* WallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallyUITests.swift; sourceTree = "<group>"; };
+		CF26C4DF1E6536C3000D635F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF26C4BC1E6536C2000D635F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26C4CB1E6536C2000D635F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26C4D61E6536C3000D635F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF26C4B61E6536C2000D635F = {
+			isa = PBXGroup;
+			children = (
+				CF26C4C11E6536C2000D635F /* Wally */,
+				CF26C4D11E6536C2000D635F /* WallyTests */,
+				CF26C4DC1E6536C3000D635F /* WallyUITests */,
+				CF26C4C01E6536C2000D635F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF26C4C01E6536C2000D635F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF26C4BF1E6536C2000D635F /* Wally.app */,
+				CF26C4CE1E6536C2000D635F /* WallyTests.xctest */,
+				CF26C4D91E6536C3000D635F /* WallyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF26C4C11E6536C2000D635F /* Wally */ = {
+			isa = PBXGroup;
+			children = (
+				CF26C4C21E6536C2000D635F /* AppDelegate.swift */,
+				CF26C4C41E6536C2000D635F /* Assets.xcassets */,
+				CF26C4C61E6536C2000D635F /* MainMenu.xib */,
+				CF26C4C91E6536C2000D635F /* Info.plist */,
+			);
+			path = Wally;
+			sourceTree = "<group>";
+		};
+		CF26C4D11E6536C2000D635F /* WallyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF26C4D21E6536C2000D635F /* WallyTests.swift */,
+				CF26C4D41E6536C2000D635F /* Info.plist */,
+			);
+			path = WallyTests;
+			sourceTree = "<group>";
+		};
+		CF26C4DC1E6536C3000D635F /* WallyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF26C4DD1E6536C3000D635F /* WallyUITests.swift */,
+				CF26C4DF1E6536C3000D635F /* Info.plist */,
+			);
+			path = WallyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF26C4BE1E6536C2000D635F /* Wally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF26C4E21E6536C3000D635F /* Build configuration list for PBXNativeTarget "Wally" */;
+			buildPhases = (
+				CF26C4BB1E6536C2000D635F /* Sources */,
+				CF26C4BC1E6536C2000D635F /* Frameworks */,
+				CF26C4BD1E6536C2000D635F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wally;
+			productName = Wally;
+			productReference = CF26C4BF1E6536C2000D635F /* Wally.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF26C4CD1E6536C2000D635F /* WallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF26C4E51E6536C3000D635F /* Build configuration list for PBXNativeTarget "WallyTests" */;
+			buildPhases = (
+				CF26C4CA1E6536C2000D635F /* Sources */,
+				CF26C4CB1E6536C2000D635F /* Frameworks */,
+				CF26C4CC1E6536C2000D635F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF26C4D01E6536C2000D635F /* PBXTargetDependency */,
+			);
+			name = WallyTests;
+			productName = WallyTests;
+			productReference = CF26C4CE1E6536C2000D635F /* WallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF26C4D81E6536C3000D635F /* WallyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF26C4E81E6536C3000D635F /* Build configuration list for PBXNativeTarget "WallyUITests" */;
+			buildPhases = (
+				CF26C4D51E6536C3000D635F /* Sources */,
+				CF26C4D61E6536C3000D635F /* Frameworks */,
+				CF26C4D71E6536C3000D635F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF26C4DB1E6536C3000D635F /* PBXTargetDependency */,
+			);
+			name = WallyUITests;
+			productName = WallyUITests;
+			productReference = CF26C4D91E6536C3000D635F /* WallyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF26C4B71E6536C2000D635F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Wilbert Liu";
+				TargetAttributes = {
+					CF26C4BE1E6536C2000D635F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF26C4CD1E6536C2000D635F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF26C4BE1E6536C2000D635F;
+					};
+					CF26C4D81E6536C3000D635F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF26C4BE1E6536C2000D635F;
+					};
+				};
+			};
+			buildConfigurationList = CF26C4BA1E6536C2000D635F /* Build configuration list for PBXProject "Wally" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF26C4B61E6536C2000D635F;
+			productRefGroup = CF26C4C01E6536C2000D635F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF26C4BE1E6536C2000D635F /* Wally */,
+				CF26C4CD1E6536C2000D635F /* WallyTests */,
+				CF26C4D81E6536C3000D635F /* WallyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF26C4BD1E6536C2000D635F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26C4C51E6536C2000D635F /* Assets.xcassets in Resources */,
+				CF26C4C81E6536C2000D635F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26C4CC1E6536C2000D635F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26C4D71E6536C3000D635F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF26C4BB1E6536C2000D635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26C4C31E6536C2000D635F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26C4CA1E6536C2000D635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26C4D31E6536C2000D635F /* WallyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF26C4D51E6536C3000D635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF26C4DE1E6536C3000D635F /* WallyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF26C4D01E6536C2000D635F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF26C4BE1E6536C2000D635F /* Wally */;
+			targetProxy = CF26C4CF1E6536C2000D635F /* PBXContainerItemProxy */;
+		};
+		CF26C4DB1E6536C3000D635F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF26C4BE1E6536C2000D635F /* Wally */;
+			targetProxy = CF26C4DA1E6536C3000D635F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF26C4C61E6536C2000D635F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF26C4C71E6536C2000D635F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF26C4E01E6536C3000D635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF26C4E11E6536C3000D635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		CF26C4E31E6536C3000D635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Wally/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilbertliu.Wally;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF26C4E41E6536C3000D635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Wally/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilbertliu.Wally;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF26C4E61E6536C3000D635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WallyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilbertliu.WallyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wally.app/Contents/MacOS/Wally";
+			};
+			name = Debug;
+		};
+		CF26C4E71E6536C3000D635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WallyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilbertliu.WallyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wally.app/Contents/MacOS/Wally";
+			};
+			name = Release;
+		};
+		CF26C4E91E6536C3000D635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WallyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilbertliu.WallyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wally;
+			};
+			name = Debug;
+		};
+		CF26C4EA1E6536C3000D635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WallyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wilbertliu.WallyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wally;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF26C4BA1E6536C2000D635F /* Build configuration list for PBXProject "Wally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26C4E01E6536C3000D635F /* Debug */,
+				CF26C4E11E6536C3000D635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF26C4E21E6536C3000D635F /* Build configuration list for PBXNativeTarget "Wally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26C4E31E6536C3000D635F /* Debug */,
+				CF26C4E41E6536C3000D635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF26C4E51E6536C3000D635F /* Build configuration list for PBXNativeTarget "WallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26C4E61E6536C3000D635F /* Debug */,
+				CF26C4E71E6536C3000D635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF26C4E81E6536C3000D635F /* Build configuration list for PBXNativeTarget "WallyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF26C4E91E6536C3000D635F /* Debug */,
+				CF26C4EA1E6536C3000D635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF26C4B71E6536C2000D635F /* Project object */;
+}
