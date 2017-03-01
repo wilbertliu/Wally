@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainViewController" customModule="Wally" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="9af-py-vth" id="NOU-2b-k7b"/>
+                <outlet property="settingsMenu" destination="ooK-FF-Dvq" id="BXn-07-2fo"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <searchField wantsLayer="YES" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTu-wo-7fi">
+                    <rect key="frame" x="12" y="128" width="251" height="22"/>
+                    <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" usesSingleLineMode="YES" bezelStyle="round" id="rnF-Ma-g06">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </searchFieldCell>
+                </searchField>
+                <scrollView wantsLayer="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmp-9T-K5y">
+                    <rect key="frame" x="12" y="10" width="296" height="108"/>
+                    <clipView key="contentView" drawsBackground="NO" id="j1D-KM-Ocd">
+                        <rect key="frame" x="1" y="1" width="294" height="106"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView id="9af-py-vth">
+                                <rect key="frame" x="0.0" y="0.0" width="294" height="106"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" scrollDirection="horizontal" id="zzg-Cn-hl3">
+                                    <size key="itemSize" width="50" height="50"/>
+                                </collectionViewFlowLayout>
+                                <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="-2" id="LGy-Gx-qKp"/>
+                                    <outlet property="delegate" destination="-2" id="6ed-IW-Yjb"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="Whd-ne-ued">
+                        <rect key="frame" x="1" y="144" width="233" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="7WL-yr-nc7">
+                        <rect key="frame" x="279" y="1" width="16" height="106"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="d3K-oI-Q8M">
+                    <rect key="frame" x="265" y="122" width="49" height="32"/>
+                    <buttonCell key="cell" type="push" title="S" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uFh-jb-Jvb">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="settingsClicked:" target="-2" id="Hfb-QZ-ENm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="eTu-wo-7fi" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="12" id="84q-iD-ggi"/>
+                <constraint firstItem="fmp-9T-K5y" firstAttribute="top" secondItem="eTu-wo-7fi" secondAttribute="bottom" constant="10" id="CJc-bu-w83"/>
+                <constraint firstAttribute="trailing" secondItem="d3K-oI-Q8M" secondAttribute="trailing" constant="12" id="Euz-ca-YvO"/>
+                <constraint firstItem="d3K-oI-Q8M" firstAttribute="top" secondItem="eTu-wo-7fi" secondAttribute="top" id="LKb-mz-BU5"/>
+                <constraint firstItem="d3K-oI-Q8M" firstAttribute="leading" secondItem="eTu-wo-7fi" secondAttribute="trailing" constant="8" id="Oga-gy-DWB"/>
+                <constraint firstAttribute="bottom" secondItem="fmp-9T-K5y" secondAttribute="bottom" constant="10" id="TFm-h6-s1Z"/>
+                <constraint firstItem="fmp-9T-K5y" firstAttribute="leading" secondItem="eTu-wo-7fi" secondAttribute="leading" id="cdM-qe-uhi"/>
+                <constraint firstItem="fmp-9T-K5y" firstAttribute="trailing" secondItem="d3K-oI-Q8M" secondAttribute="trailing" id="kLO-wx-B2d"/>
+                <constraint firstItem="eTu-wo-7fi" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="10" id="zwY-GG-Jaa"/>
+            </constraints>
+        </customView>
+        <menu id="ooK-FF-Dvq">
+            <items>
+                <menuItem title="Start Wally at login" state="on" id="tai-Px-HWB">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="startAtLoginClicked:" target="-2" id="eEX-YB-ajm"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>
