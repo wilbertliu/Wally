@@ -122,9 +122,9 @@
 		CF26C4C11E6536C2000D635F /* Wally */ = {
 			isa = PBXGroup;
 			children = (
-				CF6BE1A31E669F3300F7F2AE /* Misc */,
 				CF23D0D61E65BBD9009270C9 /* Controller */,
 				CF23D0D51E65BBB9009270C9 /* View */,
+				CF6BE1A31E669F3300F7F2AE /* Misc */,
 			);
 			path = Wally;
 			sourceTree = "<group>";
